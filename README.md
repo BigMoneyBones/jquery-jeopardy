@@ -42,7 +42,7 @@ For the base assignment, if the user clicks a $200 question, the app will displa
 #### 1. Create your files
 
 * Start off by creating an `index.html`, `main.js`, and `styles.css`
-* In `index.html`, add two `script` tags to import firt `jeopardy.json` followed by `main.js`
+* In `index.html`, add two `script` tags to import first `jeopardy.json` followed by `main.js`
 * Also add a `link` tag to import `styles.css`
 * Finally, add `jquery` to your `index.html`. You can do this by adding the following line to your `<head>`
   * `<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>`
@@ -78,9 +78,9 @@ In this step we'll add a score indicator.
 
 First, create a place to put the score in the HTML.
 
-Now, anytime a user gets a quetion right, add the score of that question (i.e.: $200) to the user's total score. One challenge here will be converting the string `"$200"` to the number `200`.
+Now, anytime a user gets a question right, add the score of that question (i.e.: $200) to the user's total score. One challenge here will be converting the string `"$200"` to the number `200`.
 
-Additionally, use the brower's local storage to save this score each time you update it.
+Additionally, use the broswer's local storage to save this score each time you update it.
 
 Finally, add code so that when the page loads, the browser checks local storage to see if a saved score exists. If one does, that saved score is displayed instead of a default $0.
 
